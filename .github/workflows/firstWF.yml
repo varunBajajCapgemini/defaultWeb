@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print_greeting
-        run: echo "your first workflow"
+        run: |
+            echo "your first workflow"
+            echo " you are doing good"
       - name: print_goodbye
         run: echo "ta ta, good bye"
         
